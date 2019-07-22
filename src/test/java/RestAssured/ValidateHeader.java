@@ -29,7 +29,7 @@ public class ValidateHeader {
 		Headers allheaders=response.headers();
 		
 		for(Header header:allheaders) {
-			System.out.println(header.getName()+"  "+header.getValue());
+			System.out.println(header.getName()+"          "+header.getValue());
 			
 		}
 		
